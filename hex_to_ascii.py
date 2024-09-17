@@ -15,7 +15,7 @@ def hex_to_ascii(hex_string):
         return f"Error: {e}. Invalid hex string."
 
 # Example usage:
-hex_value = "41424344"  # This is 'ABCD' in hex
+hex_value = "667637376"  # This is 'ABCD' in hex
 print(hex_to_ascii(hex_value))
 
 # For a single large value:
@@ -28,8 +28,8 @@ def hex_calc(a, b):
                  f"Multiplication: {a*b}\n"
                  f"Division: {b/a}")
 
-a = 0xffffd56b
-b = 0x5655a1a0
+a = 0x7fffc9c85dd4
+b = 0x7fffcacd61d4
 hex_calc(a, b)
 "\n"
 hex_calc(b, a)
