@@ -1,0 +1,4 @@
+<html>
+<body>Linear congruential generator is a very bad choice for a stream cipher. DO NOT use this stream cipher in practice.</body>
+
+</html>
